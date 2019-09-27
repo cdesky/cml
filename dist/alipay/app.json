@@ -1,0 +1,10 @@
+{
+    "window": {
+        "defaultTitle": "Chameleon"
+    },
+    "pages": [
+        "pages/index/index",
+        "pages/first-page/first-page"
+    ],
+    "usingComponents": {}
+}

@@ -1,0 +1,18 @@
+<view class=" cml-base cml-view cml-7330c152">
+  
+  <text class=" cml-base cml-text cml-7330c152">{{message}}</text>
+  <text class="class1  cml-base cml-text cml-7330c152">{{message2}}</text>
+
+  
+  <view a:if="{{showlist}}" class=" cml-base cml-view cml-7330c152">
+    <view a:for="{{array}}" a:for-index="idx" a:for-item="itemName" a:key="city" class=" cml-base cml-view cml-7330c152">
+      <text class=" cml-base cml-text cml-7330c152"> {{idx}}: {{itemName.city}}</text>
+    </view>
+  </view>
+
+  
+  <view onTap="_cmlEventProxy" data-eventtap="{{['changeShow']}}" class=" cml-base cml-view cml-7330c152"><text class=" cml-base cml-text cml-7330c152">切换展示</text></view>
+  <view class=" cml-base cml-view cml-7330c152">
+  <first-com class=" cml-base cml-first-com cml-7330c152"></first-com>
+  </view>
+</view>

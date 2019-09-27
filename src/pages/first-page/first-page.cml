@@ -1,0 +1,15 @@
+<template>
+  <view>
+    <first-com></first-com>
+  </view>
+</template>
+<script cml-type="json">
+  {
+    "base": {
+      "usingComponents": {
+        "first-com": "components/first-com/first-com"
+      }
+    }
+  }
+</script>
+

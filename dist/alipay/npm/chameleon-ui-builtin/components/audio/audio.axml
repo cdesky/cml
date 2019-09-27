@@ -1,0 +1,20 @@
+<view class="audio-root  cml-base cml-view cml-5df3c7ce" a:if="{{controls}}">
+  <view class="audio-left  cml-base cml-view cml-5df3c7ce" onTap="_cmlEventProxy" data-eventtap="{{['switchPlay']}}">
+    <image class="poster-img  cml-base cml-image cml-5df3c7ce" a:if="{{poster}}" src="{{poster}}"></image>
+    <view class="audio-left-pause-btn  cml-base cml-view cml-5df3c7ce">
+      <text class="{{audioStatus ? 'audio-left-autoplay':'audio-left-pause'}}  cml-base cml-text cml-5df3c7ce"></text>
+    </view>
+  </view>
+  <view class="audio-right  cml-base cml-view cml-5df3c7ce">
+    <view class="audio-text  cml-base cml-view cml-5df3c7ce">
+      <text class="audio-text-name  cml-base cml-text cml-5df3c7ce">{{name}}</text>
+      <text class="audio-text-author  cml-base cml-text cml-5df3c7ce">{{author}}</text>
+    </view>
+    <view class="audio-time  cml-base cml-view cml-5df3c7ce">
+      <text class="audio-time-text  cml-base cml-text cml-5df3c7ce">
+      {{currentTime}}
+
+      </text>
+    </view>
+  </view>
+</view>

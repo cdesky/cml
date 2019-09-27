@@ -1,0 +1,18 @@
+<template>
+  <view>
+    <text class="first-com-text">我是组件first-com</text>
+  </view>
+</template>
+<script>
+  class FirstCom {}
+  export default new FirstCom();
+</script>
+<style scoped>
+  .first-com-text {
+    color: #0f0;
+  }
+</style>
+<script cml-type="json">
+  {
+  }
+</script>
